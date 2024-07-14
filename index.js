@@ -6,7 +6,7 @@ require('dotenv').config();
 const dbconnect = require('./config/dbconnect');
 const port = process.env.port || 4000
 dbconnect();
-
+console.log("hellooooooooo");
 
 const adminRoute = require('./Routes/adminRoute');
 const userRoute = require('./Routes/userRoute');
